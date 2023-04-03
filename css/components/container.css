@@ -1,0 +1,17 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: 540px) {
+    .container {
+        flex-direction: row;
+        width: 80%;
+    }
+}
+
+@media (min-width: 960px) {
+    .container {
+        width: 800px;
+    }
+}
